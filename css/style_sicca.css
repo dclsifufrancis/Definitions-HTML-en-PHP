@@ -1,0 +1,73 @@
+/* Css sur toute la page */
+html {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    font-family: 'Exo', sans-serif;
+}
+/* modifie le bloc du haut */
+header {
+    
+    background-color: #CCCCCC ;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
+}
+/* centre le texte d'accueil et l'image home */
+header h1 {
+    text-align: left;
+/* Sicc  & SIfu */
+    color:darkslategray;
+
+}
+/*modifie le bloc centrale avec une taille mini de 500 px */
+section {
+    min-height: 500px;
+    margin-top: 20px;
+    background-color: #CCCCCC ;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+/* modifie le footer */
+footer {
+    margin-top: 20px;
+    background-color: #CCCCCC ;
+    border-radius: 20px;
+    padding: 15px;
+}
+img {
+    width: 10%;
+    height: auto;
+}
+th {
+    text-align: left;
+    color: white;
+}
+
+/* Styles pour tous les liens du menu */
+#navigation a {
+	padding: 8px 8px 8px 8px; 
+	font-weight: bold;
+	text-decoration: none;
+	color: #666;
+}
+
+/* Styles pour les liens survolés ou sélectionnés au clavier*/
+#navigation a:hover, #navigation a:focus {
+    text-decoration: underline;
+    background-color: darkgrey;
+	color: darkslategray;
+}
+
+/* Styles pour la rubrique en cours */
+#navigation #en-cours a {
+	background-color: darkslategray;
+	color: #fff;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
